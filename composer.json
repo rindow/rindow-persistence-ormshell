@@ -1,0 +1,46 @@
+{
+    "name": "rindow/rindow-persistence-ormshell",
+    "type": "library",
+    "description": "It helps developers create implementations of ORM services.",
+    "keywords": ["rindow","framework","persistence","orm","helper"],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.3",
+        "interop-phpobjects/lenient-transaction": "*",
+        "rindow/rindow-stdlib": "*",
+        "rindow/rindow-database-dao": "*",
+        "rindow/rindow-persistence-orm": "*"
+    },
+    "require-dev": {
+        "interop-phpobjects/lenient-transaction": "*",
+        "rindow/rindow-database-dao": "*",
+        "rindow/rindow-persistence-orm": "*",
+        "rindow/rindow-stdlib": "*",
+        "rindow/rindow-container": "*",
+        "rindow/rindow-transaction": "*"
+    },
+    "suggest": {
+        "rindow/rindow-container": "It needs some service container",
+        "rindow/rindow-transaction": "When using transaction",
+        "rindow/rindow-database-pdo": "When using SQL databases",
+        "rindow/rindow-module-mongodb": "When using Mongodb etc."
+    },
+    "autoload": {
+        "psr-0": {
+            "Rindow\\Persistence\\Ormshell\\": "src/"
+        }
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://rindow.github.io/rindow-packagist/packages.json",
+            "options": {
+                "ssl": {
+                    "verify_peer": "true"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev"
+}
