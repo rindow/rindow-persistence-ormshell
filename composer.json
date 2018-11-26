@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Rindow\\Persistence\\Ormshell\\": "src/"
+            "Rindow\\Persistence\\OrmShell\\": "src/"
         }
     },
 
