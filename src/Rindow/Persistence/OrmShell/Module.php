@@ -64,6 +64,7 @@ class Module
                             'criteriaBuilder' => array('ref'=>'Rindow\\Persistence\\OrmShell\\DefaultCriteriaBuilder'),
                             'criteriaMapper'  => array('ref'=>'Rindow\\Persistence\\OrmShell\\DefaultCriteriaMapper'),
                             'context'   => array('ref'=>'Rindow\\Persistence\\OrmShell\\DefaultEntityManager'),
+                            'configCacheFactory' => array('ref'=>'ConfigCacheFactory'),
                         ),
                     ),
                 ),
