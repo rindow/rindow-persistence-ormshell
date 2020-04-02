@@ -7,17 +7,17 @@
     "require": {
         "php": ">=5.3.3",
         "interop-phpobjects/lenient-transaction": "*",
-        "rindow/rindow-stdlib": "*",
-        "rindow/rindow-database-dao": "*",
-        "rindow/rindow-persistence-orm": "*"
+        "rindow/rindow-stdlib": "1.*",
+        "rindow/rindow-database-dao": "1.*",
+        "rindow/rindow-persistence-orm": "1.*"
     },
     "require-dev": {
         "interop-phpobjects/lenient-transaction": "*",
-        "rindow/rindow-database-dao": "*",
-        "rindow/rindow-persistence-orm": "*",
-        "rindow/rindow-stdlib": "*",
-        "rindow/rindow-container": "*",
-        "rindow/rindow-transaction": "*"
+        "rindow/rindow-database-dao": "1.*",
+        "rindow/rindow-persistence-orm": "1.*",
+        "rindow/rindow-stdlib": "1.*",
+        "rindow/rindow-container": "1.*",
+        "rindow/rindow-transaction": "1.*"
     },
     "suggest": {
         "rindow/rindow-container": "It needs some service container",
@@ -29,18 +29,5 @@
         "psr-0": {
             "Rindow\\Persistence\\OrmShell\\": "src/"
         }
-    },
-
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://rindow.github.io/rindow-packagist/packages.json",
-            "options": {
-                "ssl": {
-                    "verify_peer": "true"
-                }
-            }
-        }
-    ],
-    "minimum-stability": "dev"
+    }
 }
